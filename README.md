@@ -16,11 +16,11 @@ rwaAgent is a standalone Retrieval-Augmented Generation (RAG) chatbot focused on
 
 ```mermaid
 flowchart LR
-    A((User)) --> B[Web UI (React)]
+    A([User]) --> B[Web UI (React)]
     B --> C[AgentX (RAG)]
-    C --> D((OpenAI LLM))
-    C --> E((Qdrant))
-    C --> F((MongoDB))
+    C --> D[OpenAI LLM]
+    C --> E[Qdrant]
+    C --> F[MongoDB]
 ```
 
 1. **User** interacts via the **Web UI** (React) on the MERN stack.  
@@ -117,7 +117,7 @@ sequenceDiagram
 
 ### 3.1 Prerequisites
 
-- **Operating System**: Linux or macOS recommended (Windows possible with Docker Desktop).  
+- **Operating System(Server Side)**: Linux Server.  
 - **Docker**: Ensure Docker is installed (version 20+ recommended).  
 - **Node.js**: Version 23+ if running outside of Docker.  
 - **Memory & CPU**:  
