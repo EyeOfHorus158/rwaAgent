@@ -210,25 +210,16 @@ sequenceDiagram
 
 ---
 
-## 8. Maintenance and Support
+## 8. Changelog & Roadmap
 
-### 8.1 Support Channels
-
-- **Email**: support@rwaAgent.io (placeholder)  
-- **Issue Tracker**: GitHub Issues (if public) or internal project tools  
-
----
-
-## 9. Changelog & Roadmap
-
-### 9.1 Recent Updates
+### 8.1 Recent Updates
 
 - **v0.1 (Initial Draft)**  
   - Basic classification module for user profile generation.  
   - RAG pipeline integrated with Qdrant and OpenAI.  
   - Docker support for containerized deployment.
 
-### 9.2 Roadmap
+### 8.2 Roadmap
 
 - **v0.2**  
   - Enhanced classification with a more robust ML model (hybrid rule + LLM).  
