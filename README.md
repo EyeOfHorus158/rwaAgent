@@ -17,10 +17,10 @@ rwaAgent is a standalone Retrieval-Augmented Generation (RAG) chatbot focused on
 ```mermaid
 flowchart LR
     A((User)) --> B[Web UI (React)]
-    B --> C[rwaAgent (RAG)]
-    C --> D[(OpenAI LLM)]
-    C --> E[(Qdrant)]
-    C --> F[(MongoDB)]
+    B --> C[AgentX (RAG)]
+    C --> D((OpenAI LLM))
+    C --> E((Qdrant))
+    C --> F((MongoDB))
 ```
 
 1. **User** interacts via the **Web UI** (React) on the MERN stack.  
